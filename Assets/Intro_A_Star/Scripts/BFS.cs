@@ -117,7 +117,7 @@ public class BFS : MonoBehaviour
                cells.Enqueue(current.rightCell);
                current.rightCell.isDiscovered = true;
             }
-            yield return new WaitForSeconds(.5f);
+            yield return new WaitForSeconds(.1f);
        }
    }
     bool IsDiscoverable(Cell cell)
