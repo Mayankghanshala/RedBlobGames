@@ -8,6 +8,6 @@
 /[Pp]ackages/
 
 .vscode/
-
+.vs/
 *.csproj
 *.sln
